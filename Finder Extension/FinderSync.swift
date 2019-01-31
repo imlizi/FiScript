@@ -53,13 +53,7 @@ class FinderSync: FIFinderSync {
         let menu = NSMenu(title: "")
         
         for action in actionsToBeAppended {
-            let item = menu.addItem(withTitle: action.title!, action:#selector(actionHandler(sender:)), keyEquivalent: "")
-            
-            if let imageData = action.imageData as Data?,
-                let image = NSImage(data: imageData) {
-                
-                item.image = image
-            }
+            _ = menu.addItem(withTitle: action.title!, action:#selector(actionHandler(sender:)), keyEquivalent: "")
         }
         
         return menu

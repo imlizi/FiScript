@@ -59,12 +59,6 @@ class ModifyActionVC: NSViewController {
                 AcceptedFileTypesTextField.objectValue = acceptedFileTypes
             }
         }
-
-        if let imageNSData = action.imageData {
-            let imageData = imageNSData as Data
-            ActionThumbnailImageView.image = NSImage(data: imageData)
-        }
-
     }
     
     @IBAction func saveTapped(_ sender: Any) {
@@ -83,17 +77,10 @@ class ModifyActionVC: NSViewController {
 
             do {
                 let action = try context.fetch(request).first!
-
-                var imageData:NSData? = nil
-
-                if let image = ActionThumbnailImageView.image {
-                    imageData = NSData(data: image.png!)
-                }
                 
                 action.useOnFiles = UseOnFilesCheckbox.isOn
                 action.useOnDirectories = UseOnDirectoriesCheckbox.isOn
                 action.acceptedFileTypes = AcceptedFileTypesTextField.objectValue as? [String]
-                action.imageData = imageData ?? nil
                 action.shell = ShellComboBox.stringValue
                 action.title = NameTextField.stringValue
                 action.actionDescription = DescriptionTextView.textStorage?.string
@@ -133,18 +120,11 @@ class ModifyActionVC: NSViewController {
                 let newAction = NSEntityDescription.insertNewObject(forEntityName: "Actions", into: context) as! Actions
                 let actionsCount = actions.count
                 
-                var imageData:NSData?
-                
-                if let image = ActionThumbnailImageView.image {
-                    imageData = NSData(data: image.png!)
-                }
-                
                 newAction.id = Int64(actionsCount)
                 newAction.index = Int64(actionsCount)
                 newAction.acceptedFileTypes = AcceptedFileTypesTextField.objectValue as? [String]
                 newAction.useOnFiles = UseOnFilesCheckbox.isOn
                 newAction.useOnDirectories = UseOnDirectoriesCheckbox.isOn
-                newAction.imageData = imageData ?? nil
                 newAction.shell = ShellComboBox.stringValue
                 newAction.title = NameTextField.stringValue
                 newAction.actionDescription = DescriptionTextView.textStorage?.string

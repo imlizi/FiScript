@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0464F27C62550917B2FAA6070A340A88 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1093F40AE4DD13DBC0F2B6F24B644118 /* Cocoa.framework */; };
+		43B76D2B9D7867FD5B0BB51804A9E31C /* Pods-FiScript-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 440A09C034DCB540BB0D9B4490E17823 /* Pods-FiScript-dummy.m */; };
+		6285580229F33B7B93340DD7DA1B4142 /* MMWormhole-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 088F0FC291AA1BC801F74292661EC8F2 /* MMWormhole-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AEA89892088550FA9FBE4CAB3649BAB /* Pods-FiScriptHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E096874E32709A74B4632E3C589DB339 /* Pods-FiScriptHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		738B42610A1CC322618D0FF3E002D207 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1093F40AE4DD13DBC0F2B6F24B644118 /* Cocoa.framework */; };
+		7B6DC65920B8DF08EE0B8B52E239D6AE /* MMWormhole.h in Headers */ = {isa = PBXBuildFile; fileRef = 9811CA3C5914C462BF66F8D398637094 /* MMWormhole.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CE786DFCB0478BFB30C225B8F640482 /* MMWormholeFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = B3F5291BBBABB63DF2ADDDDC2E9B3A71 /* MMWormholeFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8028A903CF4FAC89B7FB16C7F8C53DC2 /* MMWormholeCoordinatedFileTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9CDAE52DC90040CE071AF1FF015F98 /* MMWormholeCoordinatedFileTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AE1BB00A17CB13FAEB0467274742222 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = D79BF44F98AAAB52B09B036BB575DA86 /* MMWormhole.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		98F060B54256301D1C2CE1AE7271263E /* MMWormhole-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 785DB3420D1740456B70C89501176861 /* MMWormhole-dummy.m */; };
+		A9EBBE40CE95094146C097489105B81E /* Pods-Finder Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A81E72676D7921C379FA8C5CF136FD /* Pods-Finder Extension-dummy.m */; };
+		ADE5DA27EAF10AE16291967FFA8E92B7 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C463D701AD129AFD3831D53E7B24CD /* MMWormholeFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C2640F3EF47A1155ED43A286F6D09512 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1093F40AE4DD13DBC0F2B6F24B644118 /* Cocoa.framework */; };
+		CA043D42CBFB0CE7DD244A1AD70EC6CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D2B0912E976A6B337B290F98E3F024 /* Foundation.framework */; };
+		CB7DD6F2EA3F3253C113CAA44C8D28D5 /* MMWormholeTransiting.h in Headers */ = {isa = PBXBuildFile; fileRef = EC63BF1B8A4E19B98D99F29E375F5D5C /* MMWormholeTransiting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D05B46BA57977A786351821BCE0BA413 /* Pods-Finder Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9135E0A549D24A69BC100A4F20AF9CEA /* Pods-Finder Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D2F87A29CE17E59E8210FA9850D8C2 /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FB2D6FF00D60AE285034D23EB2315C /* MMWormholeCoordinatedFileTransiting.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D4B5EECD871E7BBFD2C1AB9F6CF53A6F /* Pods-FiScript-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF268486D29723114E9901E1496661E4 /* Pods-FiScript-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D54C364CA57FB41A4E4D1DDAA4B0AA66 /* Pods-FiScriptHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEEDD52AADAA88C389075FA39DE412B /* Pods-FiScriptHelper-dummy.m */; };
+		D83C602E9FF17B938E0CAE274D17D3B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1093F40AE4DD13DBC0F2B6F24B644118 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06A8E5BCB1FCD8400FF79A1F683DA6F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C097A55F191E021D33B510496CC6CBAA;
+			remoteInfo = MMWormhole;
+		};
+		23F961673BAF04772494848C15955076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C097A55F191E021D33B510496CC6CBAA;
+			remoteInfo = MMWormhole;
+		};
+		DCC741A1620B4D647D662CB0D92FBA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C097A55F191E021D33B510496CC6CBAA;
+			remoteInfo = MMWormhole;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088F0FC291AA1BC801F74292661EC8F2 /* MMWormhole-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-umbrella.h"; sourceTree = "<group>"; };
+		090A5727FA66155E322D8041FEE24CC5 /* Pods-Finder Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Finder Extension.modulemap"; sourceTree = "<group>"; };
+		0FA89038AAAC947347F6EAE8DCA7BF3D /* Pods-FiScriptHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FiScriptHelper.modulemap"; sourceTree = "<group>"; };
+		1093F40AE4DD13DBC0F2B6F24B644118 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		15E27619940CBF3F0E30723096563FF5 /* Pods-FiScriptHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FiScriptHelper.release.xcconfig"; sourceTree = "<group>"; };
+		15F1D4A25E58DAB1D6AE212958A7E7B3 /* Pods-FiScript.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FiScript.modulemap"; sourceTree = "<group>"; };
+		1B71C3AFAF05CC1BD1625045745CCC71 /* Pods_FiScriptHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FiScriptHelper.framework; path = "Pods-FiScriptHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A81E72676D7921C379FA8C5CF136FD /* Pods-Finder Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Finder Extension-dummy.m"; sourceTree = "<group>"; };
+		26408353F5F5916FDA7E58C72CCBA9CB /* MMWormhole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMWormhole.framework; path = MMWormhole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BD102187F5FD942ABEAE9880A4308F /* Pods_FiScript.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FiScript.framework; path = "Pods-FiScript.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB180163563524397EA7AEA68F71EDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		392984DFCD445303322717D4E6F5252E /* Pods-FiScript.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FiScript.debug.xcconfig"; sourceTree = "<group>"; };
+		40D2B0912E976A6B337B290F98E3F024 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		440A09C034DCB540BB0D9B4490E17823 /* Pods-FiScript-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FiScript-dummy.m"; sourceTree = "<group>"; };
+		44FB2D6FF00D60AE285034D23EB2315C /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeCoordinatedFileTransiting.m; path = Source/MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
+		50398B30DFC3DB99ABC2D38D8914E05E /* MMWormhole.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMWormhole.modulemap; sourceTree = "<group>"; };
+		69C463D701AD129AFD3831D53E7B24CD /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormholeFileTransiting.m; path = Source/MMWormholeFileTransiting.m; sourceTree = "<group>"; };
+		755343E494ADC9DED2718ABFA4AB11B9 /* Pods-FiScriptHelper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FiScriptHelper-acknowledgements.plist"; sourceTree = "<group>"; };
+		785DB3420D1740456B70C89501176861 /* MMWormhole-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMWormhole-dummy.m"; sourceTree = "<group>"; };
+		7E15AA9610868BA8151FCDABBCF1CFA0 /* Pods-FiScriptHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FiScriptHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		7F5991787ADF36AE86C72BF028EA0314 /* Pods-FiScript-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FiScript-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FBC1C2621054F5D188F6DF8D6932791 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8822C608FE4FF44548FA6A6CCCBF34D2 /* DevMateKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DevMateKit.framework; sourceTree = "<group>"; };
+		9066F9C5E26E87BB7332ACF74AB41945 /* Pods-FiScript.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FiScript.release.xcconfig"; sourceTree = "<group>"; };
+		9135E0A549D24A69BC100A4F20AF9CEA /* Pods-Finder Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Finder Extension-umbrella.h"; sourceTree = "<group>"; };
+		915E7D8D3BCC790C2BA0CFFA7E77AFAE /* Pods-Finder Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Finder Extension.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9645D0F3623A7AD13DB078E89FC8CE21 /* MMWormhole.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMWormhole.xcconfig; sourceTree = "<group>"; };
+		980C5CFF2BF8411ECB56710DA0E9CB9B /* Pods-FiScriptHelper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FiScriptHelper-resources.sh"; sourceTree = "<group>"; };
+		9811CA3C5914C462BF66F8D398637094 /* MMWormhole.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = Source/MMWormhole.h; sourceTree = "<group>"; };
+		9BEEDD52AADAA88C389075FA39DE412B /* Pods-FiScriptHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FiScriptHelper-dummy.m"; sourceTree = "<group>"; };
+		9EFC72A159A79D6993C0F48B7E9D5CEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D901632A4613B07D8E8FB1D788521F /* Pods-Finder Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Finder Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		AC0F537B5D1A7B12ECF0060553491118 /* Pods-FiScriptHelper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FiScriptHelper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC9CDAE52DC90040CE071AF1FF015F98 /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeCoordinatedFileTransiting.h; path = Source/MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
+		B3F5291BBBABB63DF2ADDDDC2E9B3A71 /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeFileTransiting.h; path = Source/MMWormholeFileTransiting.h; sourceTree = "<group>"; };
+		B48A78ECF99439F5D10452FAC72057F3 /* Pods_Finder_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Finder_Extension.framework; path = "Pods-Finder Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B698AAF2F78339AA6F05C56B2D851856 /* Pods-FiScript-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FiScript-frameworks.sh"; sourceTree = "<group>"; };
+		B931215EC53E746B29B44B7E749CA460 /* Pods-FiScriptHelper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FiScriptHelper-frameworks.sh"; sourceTree = "<group>"; };
+		C025057F4A21517D595BEE96F0DB975F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67709F94C73489826E7144DB3E3EE02 /* Pods-Finder Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Finder Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF268486D29723114E9901E1496661E4 /* Pods-FiScript-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FiScript-umbrella.h"; sourceTree = "<group>"; };
+		D79BF44F98AAAB52B09B036BB575DA86 /* MMWormhole.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMWormhole.m; path = Source/MMWormhole.m; sourceTree = "<group>"; };
+		D8D151D7CFFAF6973DB99D2686E2882B /* Pods-Finder Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Finder Extension-resources.sh"; sourceTree = "<group>"; };
+		DF013E05B68FBC8699B2436BBF8BF027 /* MMWormhole-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMWormhole-prefix.pch"; sourceTree = "<group>"; };
+		E096874E32709A74B4632E3C589DB339 /* Pods-FiScriptHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FiScriptHelper-umbrella.h"; sourceTree = "<group>"; };
+		E1A029F1211BA836153869FA2C75FB04 /* Pods-FiScript-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FiScript-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E64353A509A2482355FD20E202ED4FEA /* Pods-Finder Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Finder Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		EC63BF1B8A4E19B98D99F29E375F5D5C /* MMWormholeTransiting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWormholeTransiting.h; path = Source/MMWormholeTransiting.h; sourceTree = "<group>"; };
+		FA66F8ABAF66D75F489752B99C838CCF /* Pods-FiScript-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FiScript-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E5414FAE7788794CE460ACB626D21BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				738B42610A1CC322618D0FF3E002D207 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5FBBDC2C1E0B1361EE7D02E9762D3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0464F27C62550917B2FAA6070A340A88 /* Cocoa.framework in Frameworks */,
+				CA043D42CBFB0CE7DD244A1AD70EC6CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED99551C4A0542EFEEE51842CCC277F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2640F3EF47A1155ED43A286F6D09512 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E272796405BDC4F620DE9788675B1C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D83C602E9FF17B938E0CAE274D17D3B1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC2D85020207A8520F07E28346A7140 /* DevMateKit */ = {
+			isa = PBXGroup;
+			children = (
+				3897E3958EE52051FF79AFF175F3624B /* Frameworks */,
+				CFC6B5AA9DD36E3D69ECBCB7D10FB0E7 /* Resources */,
+			);
+			name = DevMateKit;
+			path = DevMateKit;
+			sourceTree = "<group>";
+		};
+		20D5FD542D6561466CF2EAF74A3389C7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9811CA3C5914C462BF66F8D398637094 /* MMWormhole.h */,
+				D79BF44F98AAAB52B09B036BB575DA86 /* MMWormhole.m */,
+				AC9CDAE52DC90040CE071AF1FF015F98 /* MMWormholeCoordinatedFileTransiting.h */,
+				44FB2D6FF00D60AE285034D23EB2315C /* MMWormholeCoordinatedFileTransiting.m */,
+				B3F5291BBBABB63DF2ADDDDC2E9B3A71 /* MMWormholeFileTransiting.h */,
+				69C463D701AD129AFD3831D53E7B24CD /* MMWormholeFileTransiting.m */,
+				EC63BF1B8A4E19B98D99F29E375F5D5C /* MMWormholeTransiting.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		304DF506926BBD03D18BF01AF6B80BF4 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				1093F40AE4DD13DBC0F2B6F24B644118 /* Cocoa.framework */,
+				40D2B0912E976A6B337B290F98E3F024 /* Foundation.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		3897E3958EE52051FF79AFF175F3624B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8822C608FE4FF44548FA6A6CCCBF34D2 /* DevMateKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64878ED5C6769DCA7EE03B8B3EC22971 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FBC1C2621054F5D188F6DF8D6932791 /* Info.plist */,
+				50398B30DFC3DB99ABC2D38D8914E05E /* MMWormhole.modulemap */,
+				9645D0F3623A7AD13DB078E89FC8CE21 /* MMWormhole.xcconfig */,
+				785DB3420D1740456B70C89501176861 /* MMWormhole-dummy.m */,
+				DF013E05B68FBC8699B2436BBF8BF027 /* MMWormhole-prefix.pch */,
+				088F0FC291AA1BC801F74292661EC8F2 /* MMWormhole-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMWormhole";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
+				D8E50A6AD2896185DD4C58DDC5AE1F6D /* Pods */,
+				E35A20650CB5CB8D948BD153280D9B07 /* Products */,
+				EDD7E6DE272534C700DBE12887FD589D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A8573E37FB032DFBC16E95C8E6DE0B4 /* Pods-FiScript */ = {
+			isa = PBXGroup;
+			children = (
+				C025057F4A21517D595BEE96F0DB975F /* Info.plist */,
+				15F1D4A25E58DAB1D6AE212958A7E7B3 /* Pods-FiScript.modulemap */,
+				E1A029F1211BA836153869FA2C75FB04 /* Pods-FiScript-acknowledgements.markdown */,
+				7F5991787ADF36AE86C72BF028EA0314 /* Pods-FiScript-acknowledgements.plist */,
+				440A09C034DCB540BB0D9B4490E17823 /* Pods-FiScript-dummy.m */,
+				B698AAF2F78339AA6F05C56B2D851856 /* Pods-FiScript-frameworks.sh */,
+				FA66F8ABAF66D75F489752B99C838CCF /* Pods-FiScript-resources.sh */,
+				CF268486D29723114E9901E1496661E4 /* Pods-FiScript-umbrella.h */,
+				392984DFCD445303322717D4E6F5252E /* Pods-FiScript.debug.xcconfig */,
+				9066F9C5E26E87BB7332ACF74AB41945 /* Pods-FiScript.release.xcconfig */,
+			);
+			name = "Pods-FiScript";
+			path = "Target Support Files/Pods-FiScript";
+			sourceTree = "<group>";
+		};
+		ACA35B9E6311079B8DA89BAA78EEC8A2 /* Pods-FiScriptHelper */ = {
+			isa = PBXGroup;
+			children = (
+				2DB180163563524397EA7AEA68F71EDC /* Info.plist */,
+				0FA89038AAAC947347F6EAE8DCA7BF3D /* Pods-FiScriptHelper.modulemap */,
+				AC0F537B5D1A7B12ECF0060553491118 /* Pods-FiScriptHelper-acknowledgements.markdown */,
+				755343E494ADC9DED2718ABFA4AB11B9 /* Pods-FiScriptHelper-acknowledgements.plist */,
+				9BEEDD52AADAA88C389075FA39DE412B /* Pods-FiScriptHelper-dummy.m */,
+				B931215EC53E746B29B44B7E749CA460 /* Pods-FiScriptHelper-frameworks.sh */,
+				980C5CFF2BF8411ECB56710DA0E9CB9B /* Pods-FiScriptHelper-resources.sh */,
+				E096874E32709A74B4632E3C589DB339 /* Pods-FiScriptHelper-umbrella.h */,
+				7E15AA9610868BA8151FCDABBCF1CFA0 /* Pods-FiScriptHelper.debug.xcconfig */,
+				15E27619940CBF3F0E30723096563FF5 /* Pods-FiScriptHelper.release.xcconfig */,
+			);
+			name = "Pods-FiScriptHelper";
+			path = "Target Support Files/Pods-FiScriptHelper";
+			sourceTree = "<group>";
+		};
+		CFC6B5AA9DD36E3D69ECBCB7D10FB0E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				304DF506926BBD03D18BF01AF6B80BF4 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8E50A6AD2896185DD4C58DDC5AE1F6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FC2D85020207A8520F07E28346A7140 /* DevMateKit */,
+				DADC432FC8DC838A87F469CA948A2110 /* MMWormhole */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D990537A3C71C79F80D6A7F60AB2FC0D /* Pods-Finder Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9EFC72A159A79D6993C0F48B7E9D5CEE /* Info.plist */,
+				090A5727FA66155E322D8041FEE24CC5 /* Pods-Finder Extension.modulemap */,
+				C67709F94C73489826E7144DB3E3EE02 /* Pods-Finder Extension-acknowledgements.markdown */,
+				A5D901632A4613B07D8E8FB1D788521F /* Pods-Finder Extension-acknowledgements.plist */,
+				24A81E72676D7921C379FA8C5CF136FD /* Pods-Finder Extension-dummy.m */,
+				D8D151D7CFFAF6973DB99D2686E2882B /* Pods-Finder Extension-resources.sh */,
+				9135E0A549D24A69BC100A4F20AF9CEA /* Pods-Finder Extension-umbrella.h */,
+				E64353A509A2482355FD20E202ED4FEA /* Pods-Finder Extension.debug.xcconfig */,
+				915E7D8D3BCC790C2BA0CFFA7E77AFAE /* Pods-Finder Extension.release.xcconfig */,
+			);
+			name = "Pods-Finder Extension";
+			path = "Target Support Files/Pods-Finder Extension";
+			sourceTree = "<group>";
+		};
+		DADC432FC8DC838A87F469CA948A2110 /* MMWormhole */ = {
+			isa = PBXGroup;
+			children = (
+				20D5FD542D6561466CF2EAF74A3389C7 /* Core */,
+				64878ED5C6769DCA7EE03B8B3EC22971 /* Support Files */,
+			);
+			name = MMWormhole;
+			path = MMWormhole;
+			sourceTree = "<group>";
+		};
+		E35A20650CB5CB8D948BD153280D9B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26408353F5F5916FDA7E58C72CCBA9CB /* MMWormhole.framework */,
+				B48A78ECF99439F5D10452FAC72057F3 /* Pods_Finder_Extension.framework */,
+				26BD102187F5FD942ABEAE9880A4308F /* Pods_FiScript.framework */,
+				1B71C3AFAF05CC1BD1625045745CCC71 /* Pods_FiScriptHelper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDD7E6DE272534C700DBE12887FD589D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D990537A3C71C79F80D6A7F60AB2FC0D /* Pods-Finder Extension */,
+				9A8573E37FB032DFBC16E95C8E6DE0B4 /* Pods-FiScript */,
+				ACA35B9E6311079B8DA89BAA78EEC8A2 /* Pods-FiScriptHelper */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B3B29F6755C78210041D6F8E9248161 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEA89892088550FA9FBE4CAB3649BAB /* Pods-FiScriptHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		436C39C0F237735ABC4CC2DDA4C29290 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05B46BA57977A786351821BCE0BA413 /* Pods-Finder Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF96562AFA4FAB2C961A7647352EF4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4B5EECD871E7BBFD2C1AB9F6CF53A6F /* Pods-FiScript-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF931E777873B1E092008A3A38D9D12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6285580229F33B7B93340DD7DA1B4142 /* MMWormhole-umbrella.h in Headers */,
+				7B6DC65920B8DF08EE0B8B52E239D6AE /* MMWormhole.h in Headers */,
+				8028A903CF4FAC89B7FB16C7F8C53DC2 /* MMWormholeCoordinatedFileTransiting.h in Headers */,
+				7CE786DFCB0478BFB30C225B8F640482 /* MMWormholeFileTransiting.h in Headers */,
+				CB7DD6F2EA3F3253C113CAA44C8D28D5 /* MMWormholeTransiting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39452484BDECA68A859F9DB964BB4108 /* Pods-Finder Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21A98BD2D22161231F9F64D22BAF6B17 /* Build configuration list for PBXNativeTarget "Pods-Finder Extension" */;
+			buildPhases = (
+				436C39C0F237735ABC4CC2DDA4C29290 /* Headers */,
+				57A8402025DE63CC047F92080C39D5E2 /* Sources */,
+				2E5414FAE7788794CE460ACB626D21BA /* Frameworks */,
+				49BEEAF0321BF544C666CDB86B7960AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02C559CCC22FC9F86C20A01520D3B44 /* PBXTargetDependency */,
+			);
+			name = "Pods-Finder Extension";
+			productName = "Pods-Finder Extension";
+			productReference = B48A78ECF99439F5D10452FAC72057F3 /* Pods_Finder_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C097A55F191E021D33B510496CC6CBAA /* MMWormhole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07945B18045041493F1CD0B6DB378B6 /* Build configuration list for PBXNativeTarget "MMWormhole" */;
+			buildPhases = (
+				CBF931E777873B1E092008A3A38D9D12 /* Headers */,
+				4909FF8723A693EE527790233EF5BD30 /* Sources */,
+				A5FBBDC2C1E0B1361EE7D02E9762D3BD /* Frameworks */,
+				F142E0D2AAA4E0FB9B58DE9D9FFCAB66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMWormhole;
+			productName = MMWormhole;
+			productReference = 26408353F5F5916FDA7E58C72CCBA9CB /* MMWormhole.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C378FC5EBF0A301E230784F19A9E5187 /* Pods-FiScript */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCA3F4F882117B107A0E689FDD10BA5 /* Build configuration list for PBXNativeTarget "Pods-FiScript" */;
+			buildPhases = (
+				6AF96562AFA4FAB2C961A7647352EF4C /* Headers */,
+				3A11F3844AE2A8A7470B65CD69412933 /* Sources */,
+				E272796405BDC4F620DE9788675B1C25 /* Frameworks */,
+				3F31995B41B64BFA28ECECCA8F1368C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2782F659A3ECEF3F8D9B2BF5FE978E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-FiScript";
+			productName = "Pods-FiScript";
+			productReference = 26BD102187F5FD942ABEAE9880A4308F /* Pods_FiScript.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3DC9C797E4692F93C7A263D907B5F61 /* Pods-FiScriptHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B661866C8A8874C812A87601D8D395E /* Build configuration list for PBXNativeTarget "Pods-FiScriptHelper" */;
+			buildPhases = (
+				2B3B29F6755C78210041D6F8E9248161 /* Headers */,
+				F1AE7AB6C6BE5D3307A5D01B068119D6 /* Sources */,
+				BED99551C4A0542EFEEE51842CCC277F /* Frameworks */,
+				8B625962125DDA25AE92298BE048511D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				686055332D4141D57A3741441C3626AC /* PBXTargetDependency */,
+			);
+			name = "Pods-FiScriptHelper";
+			productName = "Pods-FiScriptHelper";
+			productReference = 1B71C3AFAF05CC1BD1625045745CCC71 /* Pods_FiScriptHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E35A20650CB5CB8D948BD153280D9B07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C097A55F191E021D33B510496CC6CBAA /* MMWormhole */,
+				39452484BDECA68A859F9DB964BB4108 /* Pods-Finder Extension */,
+				C378FC5EBF0A301E230784F19A9E5187 /* Pods-FiScript */,
+				C3DC9C797E4692F93C7A263D907B5F61 /* Pods-FiScriptHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F31995B41B64BFA28ECECCA8F1368C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49BEEAF0321BF544C666CDB86B7960AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B625962125DDA25AE92298BE048511D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F142E0D2AAA4E0FB9B58DE9D9FFCAB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A11F3844AE2A8A7470B65CD69412933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B76D2B9D7867FD5B0BB51804A9E31C /* Pods-FiScript-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4909FF8723A693EE527790233EF5BD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98F060B54256301D1C2CE1AE7271263E /* MMWormhole-dummy.m in Sources */,
+				8AE1BB00A17CB13FAEB0467274742222 /* MMWormhole.m in Sources */,
+				D3D2F87A29CE17E59E8210FA9850D8C2 /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				ADE5DA27EAF10AE16291967FFA8E92B7 /* MMWormholeFileTransiting.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57A8402025DE63CC047F92080C39D5E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9EBBE40CE95094146C097489105B81E /* Pods-Finder Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AE7AB6C6BE5D3307A5D01B068119D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54C364CA57FB41A4E4D1DDAA4B0AA66 /* Pods-FiScriptHelper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		686055332D4141D57A3741441C3626AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMWormhole;
+			target = C097A55F191E021D33B510496CC6CBAA /* MMWormhole */;
+			targetProxy = DCC741A1620B4D647D662CB0D92FBA4F /* PBXContainerItemProxy */;
+		};
+		A2782F659A3ECEF3F8D9B2BF5FE978E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMWormhole;
+			target = C097A55F191E021D33B510496CC6CBAA /* MMWormhole */;
+			targetProxy = 06A8E5BCB1FCD8400FF79A1F683DA6F3 /* PBXContainerItemProxy */;
+		};
+		E02C559CCC22FC9F86C20A01520D3B44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMWormhole;
+			target = C097A55F191E021D33B510496CC6CBAA /* MMWormhole */;
+			targetProxy = 23F961673BAF04772494848C15955076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02206A39950AB264474BF72228F5C23F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0406B6F2436380901FF8F03DCC3C07EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392984DFCD445303322717D4E6F5252E /* Pods-FiScript.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FiScript/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FiScript/Pods-FiScript.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A649634A7C36BD4EAEBB2D435338C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9645D0F3623A7AD13DB078E89FC8CE21 /* MMWormhole.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
+				PRODUCT_MODULE_NAME = MMWormhole;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D7044C79575E4903F2DF54089C218A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 915E7D8D3BCC790C2BA0CFFA7E77AFAE /* Pods-Finder Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Finder Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-Finder Extension/Pods-Finder Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		496190231E2725931F5BF2ED4F2A22D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E27619940CBF3F0E30723096563FF5 /* Pods-FiScriptHelper.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FiScriptHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FiScriptHelper/Pods-FiScriptHelper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		564E4121E1F39EF91DEE350C9BC22983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E15AA9610868BA8151FCDABBCF1CFA0 /* Pods-FiScriptHelper.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FiScriptHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FiScriptHelper/Pods-FiScriptHelper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62FE7660C9BFFBB21FA80BED50834E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		914789F6AAA0F3370B932DA95ECBEF65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9645D0F3623A7AD13DB078E89FC8CE21 /* MMWormhole.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/MMWormhole/MMWormhole-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMWormhole/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/MMWormhole/MMWormhole.modulemap";
+				PRODUCT_MODULE_NAME = MMWormhole;
+				PRODUCT_NAME = MMWormhole;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA86155F7ECDCBD466AAA5FC48B3626A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9066F9C5E26E87BB7332ACF74AB41945 /* Pods-FiScript.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-FiScript/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-FiScript/Pods-FiScript.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F745A5B61AD370709DA86AA30E2F132D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64353A509A2482355FD20E202ED4FEA /* Pods-Finder Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Finder Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-Finder Extension/Pods-Finder Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21A98BD2D22161231F9F64D22BAF6B17 /* Build configuration list for PBXNativeTarget "Pods-Finder Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F745A5B61AD370709DA86AA30E2F132D /* Debug */,
+				1D7044C79575E4903F2DF54089C218A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCA3F4F882117B107A0E689FDD10BA5 /* Build configuration list for PBXNativeTarget "Pods-FiScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0406B6F2436380901FF8F03DCC3C07EF /* Debug */,
+				DA86155F7ECDCBD466AAA5FC48B3626A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02206A39950AB264474BF72228F5C23F /* Debug */,
+				62FE7660C9BFFBB21FA80BED50834E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B661866C8A8874C812A87601D8D395E /* Build configuration list for PBXNativeTarget "Pods-FiScriptHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564E4121E1F39EF91DEE350C9BC22983 /* Debug */,
+				496190231E2725931F5BF2ED4F2A22D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07945B18045041493F1CD0B6DB378B6 /* Build configuration list for PBXNativeTarget "MMWormhole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914789F6AAA0F3370B932DA95ECBEF65 /* Debug */,
+				1A649634A7C36BD4EAEBB2D435338C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

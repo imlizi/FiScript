@@ -1,0 +1,6 @@
+framework module Pods_FiScript {
+  umbrella header "Pods-FiScript-umbrella.h"
+
+  export *
+  module * { export * }
+}

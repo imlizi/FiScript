@@ -35,11 +35,6 @@ public class DefaultActions {
             let context = persistentContainer.viewContext
             let action = NSEntityDescription.insertNewObject(forEntityName: "Actions", into: context) as! Actions
 
-            guard let image = NSImage(named: NSImage.Name(rawValue: defaultAction.imageName)),
-                let imageData = image.png else {
-                    fatalError("couldn't save images")
-            }
-
             action.acceptedFileTypes = defaultAction.acceptedFileTypes
             action.useOnFiles = defaultAction.useOnFiles
             action.useOnDirectories = defaultAction.useOnDirectories
@@ -47,7 +42,6 @@ public class DefaultActions {
             action.confirmBeforeExecuting = defaultAction.confirmBeforeExecuting
             action.enabled = defaultAction.enabled
             action.getNotificationWhenExecusionHasFinished = defaultAction.getNotificationWhenExecusionHasFinished
-            action.imageData = imageData as NSData
             action.id = defaultAction.id
             action.index = defaultAction.index
             action.script = defaultAction.script

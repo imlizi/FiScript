@@ -36,7 +36,6 @@ public class Actions: NSManagedObject {
     @NSManaged public var enabled: Bool
     @NSManaged public var getNotificationWhenExecusionHasFinished: Bool
     @NSManaged public var id: Int64
-    @NSManaged public var imageData: NSData?
     @NSManaged public var index: Int64
     @NSManaged public var script: String!
     @NSManaged public var shell: String!

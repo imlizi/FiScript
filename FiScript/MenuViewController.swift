@@ -286,10 +286,6 @@ extension MenuViewController: NSTableViewDelegate {
             
             if let cell = tableView.makeView(withIdentifier: NSUserInterfaceItemIdentifier(rawValue: CellIdentifiers.ActionCell), owner: nil) as? NSTableCellView {
                 cell.textField?.stringValue = action.title
-                if let itemImage = action.imageData {
-                    let itemImageData = itemImage as Data
-                    cell.imageView!.image = NSImage(data: itemImageData)
-                }
                 
                 return cell
             }
