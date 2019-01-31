@@ -27,6 +27,12 @@ FiScript is an open source application for MacOS, released under the MIT License
 
 ###### You might also like [Dozer](https://github.com/Mortennn/Dozer), which lets you hide menubar items to give your Mac a cleaner look.
 
+
+
+### 有时候菜单会消失，可 option+右键，重启Finder即可.
+
+
+
 ## ⚙️ Install
 Easiest way by using [Homebrew Cask](https://caskroom.github.io/):
 
